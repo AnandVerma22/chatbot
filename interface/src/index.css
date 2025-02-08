@@ -1,0 +1,23 @@
+/* src/index.css */
+.chat-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.chat-message {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.user-message {
+  background-color: blue;
+  color: white;
+  text-align: right;
+}
+.bot-message {
+  background-color: lightgray;
+  text-align: left;
+}
